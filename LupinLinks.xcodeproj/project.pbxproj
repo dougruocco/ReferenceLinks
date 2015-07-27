@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		151C544218FD69CC000F2236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C544118FD69CC000F2236 /* Foundation.framework */; };
+		151C544418FD69CC000F2236 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C544318FD69CC000F2236 /* CoreGraphics.framework */; };
+		151C544618FD69CC000F2236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C544518FD69CC000F2236 /* UIKit.framework */; };
+		151C544C18FD69CC000F2236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 151C544A18FD69CC000F2236 /* InfoPlist.strings */; };
+		151C544E18FD69CC000F2236 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C544D18FD69CC000F2236 /* main.m */; };
+		151C545218FD69CC000F2236 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C545118FD69CC000F2236 /* AppDelegate.m */; };
+		151C545518FD69CC000F2236 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151C545318FD69CC000F2236 /* Main.storyboard */; };
+		151C545818FD69CC000F2236 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C545718FD69CC000F2236 /* ViewController.m */; };
+		151C545A18FD69CC000F2236 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151C545918FD69CC000F2236 /* Images.xcassets */; };
+		151C546118FD69CC000F2236 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C546018FD69CC000F2236 /* XCTest.framework */; };
+		151C546218FD69CC000F2236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C544118FD69CC000F2236 /* Foundation.framework */; };
+		151C546318FD69CC000F2236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151C544518FD69CC000F2236 /* UIKit.framework */; };
+		151C546B18FD69CC000F2236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 151C546918FD69CC000F2236 /* InfoPlist.strings */; };
+		151C546D18FD69CC000F2236 /* LupinLinksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 151C546C18FD69CC000F2236 /* LupinLinksTests.m */; };
+		151C547718FD6B5E000F2236 /* Lupin_Building.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151C547618FD6B5E000F2236 /* Lupin_Building.jpg */; };
+		151C547918FD6C4A000F2236 /* Lupin_Building_faded.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 151C547818FD6C4A000F2236 /* Lupin_Building_faded.jpg */; };
+		F8879469192CFDCE0035B0B5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8879468192CFDCE0035B0B5 /* MessageUI.framework */; };
+		F8EBDE481B1E11250071579B /* PaperGoodsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EBDE471B1E11250071579B /* PaperGoodsVC.m */; };
+		F8EBDE521B1E17DA0071579B /* PaperGoodOrder_1.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EBDE4E1B1E17DA0071579B /* PaperGoodOrder_1.png */; };
+		F8EBDE531B1E17DA0071579B /* PaperGoodOrder_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EBDE4F1B1E17DA0071579B /* PaperGoodOrder_2.png */; };
+		F8EBDE541B1E17DA0071579B /* PaperGoodOrder_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EBDE501B1E17DA0071579B /* PaperGoodOrder_3.png */; };
+		F8EBDE551B1E17DA0071579B /* PaperGoodOrder_4.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EBDE511B1E17DA0071579B /* PaperGoodOrder_4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		151C546418FD69CC000F2236 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 151C543618FD69CC000F2236 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 151C543D18FD69CC000F2236;
+			remoteInfo = LupinLinks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151C543E18FD69CC000F2236 /* LupinLinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LupinLinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		151C544118FD69CC000F2236 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		151C544318FD69CC000F2236 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		151C544518FD69CC000F2236 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		151C544918FD69CC000F2236 /* LupinLinks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LupinLinks-Info.plist"; sourceTree = "<group>"; };
+		151C544B18FD69CC000F2236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		151C544D18FD69CC000F2236 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		151C544F18FD69CC000F2236 /* LupinLinks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LupinLinks-Prefix.pch"; sourceTree = "<group>"; };
+		151C545018FD69CC000F2236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		151C545118FD69CC000F2236 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		151C545418FD69CC000F2236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		151C545618FD69CC000F2236 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		151C545718FD69CC000F2236 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		151C545918FD69CC000F2236 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		151C545F18FD69CC000F2236 /* LupinLinksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LupinLinksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		151C546018FD69CC000F2236 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		151C546818FD69CC000F2236 /* LupinLinksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LupinLinksTests-Info.plist"; sourceTree = "<group>"; };
+		151C546A18FD69CC000F2236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		151C546C18FD69CC000F2236 /* LupinLinksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LupinLinksTests.m; sourceTree = "<group>"; };
+		151C547618FD6B5E000F2236 /* Lupin_Building.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lupin_Building.jpg; sourceTree = "<group>"; };
+		151C547818FD6C4A000F2236 /* Lupin_Building_faded.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lupin_Building_faded.jpg; sourceTree = "<group>"; };
+		F8879468192CFDCE0035B0B5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F8EBDE461B1E11250071579B /* PaperGoodsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperGoodsVC.h; sourceTree = "<group>"; };
+		F8EBDE471B1E11250071579B /* PaperGoodsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperGoodsVC.m; sourceTree = "<group>"; };
+		F8EBDE4E1B1E17DA0071579B /* PaperGoodOrder_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaperGoodOrder_1.png; sourceTree = "<group>"; };
+		F8EBDE4F1B1E17DA0071579B /* PaperGoodOrder_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaperGoodOrder_2.png; sourceTree = "<group>"; };
+		F8EBDE501B1E17DA0071579B /* PaperGoodOrder_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaperGoodOrder_3.png; sourceTree = "<group>"; };
+		F8EBDE511B1E17DA0071579B /* PaperGoodOrder_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PaperGoodOrder_4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		151C543B18FD69CC000F2236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8879469192CFDCE0035B0B5 /* MessageUI.framework in Frameworks */,
+				151C544418FD69CC000F2236 /* CoreGraphics.framework in Frameworks */,
+				151C544618FD69CC000F2236 /* UIKit.framework in Frameworks */,
+				151C544218FD69CC000F2236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151C545C18FD69CC000F2236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151C546118FD69CC000F2236 /* XCTest.framework in Frameworks */,
+				151C546318FD69CC000F2236 /* UIKit.framework in Frameworks */,
+				151C546218FD69CC000F2236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151C543518FD69CC000F2236 = {
+			isa = PBXGroup;
+			children = (
+				151C544718FD69CC000F2236 /* LupinLinks */,
+				151C546618FD69CC000F2236 /* LupinLinksTests */,
+				151C544018FD69CC000F2236 /* Frameworks */,
+				151C543F18FD69CC000F2236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		151C543F18FD69CC000F2236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				151C543E18FD69CC000F2236 /* LupinLinks.app */,
+				151C545F18FD69CC000F2236 /* LupinLinksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		151C544018FD69CC000F2236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8879468192CFDCE0035B0B5 /* MessageUI.framework */,
+				151C544118FD69CC000F2236 /* Foundation.framework */,
+				151C544318FD69CC000F2236 /* CoreGraphics.framework */,
+				151C544518FD69CC000F2236 /* UIKit.framework */,
+				151C546018FD69CC000F2236 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		151C544718FD69CC000F2236 /* LupinLinks */ = {
+			isa = PBXGroup;
+			children = (
+				151C545018FD69CC000F2236 /* AppDelegate.h */,
+				151C545118FD69CC000F2236 /* AppDelegate.m */,
+				151C545318FD69CC000F2236 /* Main.storyboard */,
+				151C545618FD69CC000F2236 /* ViewController.h */,
+				151C545718FD69CC000F2236 /* ViewController.m */,
+				F8EBDE491B1E112A0071579B /* PaperGoods */,
+				151C545918FD69CC000F2236 /* Images.xcassets */,
+				151C544818FD69CC000F2236 /* Supporting Files */,
+			);
+			path = LupinLinks;
+			sourceTree = "<group>";
+		};
+		151C544818FD69CC000F2236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8EBDE4E1B1E17DA0071579B /* PaperGoodOrder_1.png */,
+				F8EBDE4F1B1E17DA0071579B /* PaperGoodOrder_2.png */,
+				F8EBDE501B1E17DA0071579B /* PaperGoodOrder_3.png */,
+				F8EBDE511B1E17DA0071579B /* PaperGoodOrder_4.png */,
+				151C547818FD6C4A000F2236 /* Lupin_Building_faded.jpg */,
+				151C547618FD6B5E000F2236 /* Lupin_Building.jpg */,
+				151C544918FD69CC000F2236 /* LupinLinks-Info.plist */,
+				151C544A18FD69CC000F2236 /* InfoPlist.strings */,
+				151C544D18FD69CC000F2236 /* main.m */,
+				151C544F18FD69CC000F2236 /* LupinLinks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		151C546618FD69CC000F2236 /* LupinLinksTests */ = {
+			isa = PBXGroup;
+			children = (
+				151C546C18FD69CC000F2236 /* LupinLinksTests.m */,
+				151C546718FD69CC000F2236 /* Supporting Files */,
+			);
+			path = LupinLinksTests;
+			sourceTree = "<group>";
+		};
+		151C546718FD69CC000F2236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				151C546818FD69CC000F2236 /* LupinLinksTests-Info.plist */,
+				151C546918FD69CC000F2236 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8EBDE491B1E112A0071579B /* PaperGoods */ = {
+			isa = PBXGroup;
+			children = (
+				F8EBDE461B1E11250071579B /* PaperGoodsVC.h */,
+				F8EBDE471B1E11250071579B /* PaperGoodsVC.m */,
+			);
+			name = PaperGoods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		151C543D18FD69CC000F2236 /* LupinLinks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151C547018FD69CC000F2236 /* Build configuration list for PBXNativeTarget "LupinLinks" */;
+			buildPhases = (
+				151C543A18FD69CC000F2236 /* Sources */,
+				151C543B18FD69CC000F2236 /* Frameworks */,
+				151C543C18FD69CC000F2236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LupinLinks;
+			productName = LupinLinks;
+			productReference = 151C543E18FD69CC000F2236 /* LupinLinks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		151C545E18FD69CC000F2236 /* LupinLinksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 151C547318FD69CC000F2236 /* Build configuration list for PBXNativeTarget "LupinLinksTests" */;
+			buildPhases = (
+				151C545B18FD69CC000F2236 /* Sources */,
+				151C545C18FD69CC000F2236 /* Frameworks */,
+				151C545D18FD69CC000F2236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				151C546518FD69CC000F2236 /* PBXTargetDependency */,
+			);
+			name = LupinLinksTests;
+			productName = LupinLinksTests;
+			productReference = 151C545F18FD69CC000F2236 /* LupinLinksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		151C543618FD69CC000F2236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lupin Pharmaceuticals";
+				TargetAttributes = {
+					151C543D18FD69CC000F2236 = {
+						DevelopmentTeam = 87DKUX55Q9;
+					};
+					151C545E18FD69CC000F2236 = {
+						TestTargetID = 151C543D18FD69CC000F2236;
+					};
+				};
+			};
+			buildConfigurationList = 151C543918FD69CC000F2236 /* Build configuration list for PBXProject "LupinLinks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 151C543518FD69CC000F2236;
+			productRefGroup = 151C543F18FD69CC000F2236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				151C543D18FD69CC000F2236 /* LupinLinks */,
+				151C545E18FD69CC000F2236 /* LupinLinksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		151C543C18FD69CC000F2236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151C545A18FD69CC000F2236 /* Images.xcassets in Resources */,
+				F8EBDE551B1E17DA0071579B /* PaperGoodOrder_4.png in Resources */,
+				151C544C18FD69CC000F2236 /* InfoPlist.strings in Resources */,
+				151C547918FD6C4A000F2236 /* Lupin_Building_faded.jpg in Resources */,
+				F8EBDE531B1E17DA0071579B /* PaperGoodOrder_2.png in Resources */,
+				151C547718FD6B5E000F2236 /* Lupin_Building.jpg in Resources */,
+				F8EBDE521B1E17DA0071579B /* PaperGoodOrder_1.png in Resources */,
+				F8EBDE541B1E17DA0071579B /* PaperGoodOrder_3.png in Resources */,
+				151C545518FD69CC000F2236 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151C545D18FD69CC000F2236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151C546B18FD69CC000F2236 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		151C543A18FD69CC000F2236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151C545818FD69CC000F2236 /* ViewController.m in Sources */,
+				151C545218FD69CC000F2236 /* AppDelegate.m in Sources */,
+				F8EBDE481B1E11250071579B /* PaperGoodsVC.m in Sources */,
+				151C544E18FD69CC000F2236 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		151C545B18FD69CC000F2236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				151C546D18FD69CC000F2236 /* LupinLinksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		151C546518FD69CC000F2236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 151C543D18FD69CC000F2236 /* LupinLinks */;
+			targetProxy = 151C546418FD69CC000F2236 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		151C544A18FD69CC000F2236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151C544B18FD69CC000F2236 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		151C545318FD69CC000F2236 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151C545418FD69CC000F2236 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		151C546918FD69CC000F2236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				151C546A18FD69CC000F2236 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		151C546E18FD69CC000F2236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "b66ea30f-9f74-456e-9a84-0004a832a877";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		151C546F18FD69CC000F2236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "b66ea30f-9f74-456e-9a84-0004a832a877";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		151C547118FD69CC000F2236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LupinLinks/LupinLinks-Prefix.pch";
+				INFOPLIST_FILE = "LupinLinks/LupinLinks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b66ea30f-9f74-456e-9a84-0004a832a877";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		151C547218FD69CC000F2236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lupin Pharmaceuticals, Inc.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LupinLinks/LupinLinks-Prefix.pch";
+				INFOPLIST_FILE = "LupinLinks/LupinLinks-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b66ea30f-9f74-456e-9a84-0004a832a877";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		151C547418FD69CC000F2236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LupinLinks.app/LupinLinks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LupinLinks/LupinLinks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LupinLinksTests/LupinLinksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		151C547518FD69CC000F2236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LupinLinks.app/LupinLinks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LupinLinks/LupinLinks-Prefix.pch";
+				INFOPLIST_FILE = "LupinLinksTests/LupinLinksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		151C543918FD69CC000F2236 /* Build configuration list for PBXProject "LupinLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151C546E18FD69CC000F2236 /* Debug */,
+				151C546F18FD69CC000F2236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151C547018FD69CC000F2236 /* Build configuration list for PBXNativeTarget "LupinLinks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151C547118FD69CC000F2236 /* Debug */,
+				151C547218FD69CC000F2236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		151C547318FD69CC000F2236 /* Build configuration list for PBXNativeTarget "LupinLinksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				151C547418FD69CC000F2236 /* Debug */,
+				151C547518FD69CC000F2236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 151C543618FD69CC000F2236 /* Project object */;
+}
